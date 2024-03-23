@@ -1,0 +1,32 @@
+<html lang="it">
+<head>
+    <title>Random Number Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="blank_box"></div>
+    <div id="card">
+        <h1>Random Number Generator</h1>
+        <form action="result.php" method="POST">
+            <label for="num_dice"><h2>Numero dei dadi</h2></label>
+            <div id="container">
+                <input type="number" id="num_dice" name="num_dice" min="1" value="1">
+                
+            </div>
+            <label for="dice_type"><h2>Tipo di Dado</h2></label>
+            <div id="container">
+                <select id="dice_type" name="dice_type">
+                    <option value="4">d4</option>
+                    <option value="6">d6</option>
+                    <option value="8">d8</option>
+                    <option value="10">d10</option>
+                    <option value="12">d12</option>
+                    <option value="20">d20</option>
+                </select>
+            </div>
+            <div id="container"><button id="button"><p>Lancia i Dadi</p></button></div>
+        </form>
+    </div>
+</body>
+</html>

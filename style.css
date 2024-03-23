@@ -1,0 +1,53 @@
+body{
+    background-color: #b80000;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: rgb(36, 36, 36);
+}
+
+#blank_box{
+    height: 2vw;
+    
+}
+
+#card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    background-color: #ffaeae;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+}
+
+#button{
+    border-radius: 15px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    /* padding: 50px; */
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+form{
+    padding: 5px;
+}
